@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:#8B8B8B;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 21px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: black;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 16px; 
+    color: black;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.obrazek {
+    padding: 60px 75px;
+    max-width: 100%;
+
+}
+
+
+.button {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.prvni {
+    background-color: #407BFF;
+}
+
+.druhy {
+    background-color: #8B8B8B;
+}
