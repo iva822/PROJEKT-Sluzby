@@ -11,25 +11,34 @@ body {
 h1 {
     font-weight: 500;
     font-size: 28px;
-    color: black;
+    color: black; 
 }
 
 h2 {
     font-weight: 500;
     font-size: 16px; 
     color: black;
+    margin-top: 60px;
 }
 
 h3 {
     font-size: 13px;
     font-weight: 300;
     text-align: left;
+    line-height: 17px;
+}
+
+hr {
+   width: 60px;
+   color: #407BFF; 
+   background-color: #407BFF;
+   height: 2px;
+   margin-bottom: 30px;
 }
 
 .obrazek {
     padding: 60px 75px;
     max-width: 100%;
-
 }
 
 
@@ -42,6 +51,9 @@ h3 {
     margin: auto;
     text-align: center;
     margin-bottom: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
 }
 
 .prvni {
@@ -51,3 +63,20 @@ h3 {
 .druhy {
     background-color: #8B8B8B;
 }
+
+.polozka {
+    display: flex;
+    margin: 20px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.ikona {
+    padding: 20px;
+    height: 40px;
+
+}
+ .odstavec {
+     margin: 0 20px 30px 20px;
+ }
