@@ -1,192 +1,187 @@
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    color:#8B8B8B;
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-    line-height: 21px;
-    background-color: #FAFAFA;
+  font-family: "Montserrat", sans-serif;
+  color: #8b8b8b;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 21px;
+  background-color: #fafafa;
 }
 
 h1 {
-    font-weight: 500;
-    font-size: 28px;
-    color: black; 
-    
+  font-weight: 500;
+  font-size: 28px;
+  color: black;
 }
 
 h2 {
-    font-weight: 500;
-    font-size: 16px; 
-    color: black;
-    margin-top: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-top: 60px;
 }
 
 h3 {
-    font-size: 13px;
-    font-weight: 300;
-    text-align: left;
-    line-height: 17px;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 17px;
 }
 
 hr {
-   width: 60px;
-   color: #407BFF; 
-   background-color: #407BFF;
-   height: 2px;
-   margin-bottom: 30px;
+  width: 60px;
+  color: #407bff;
+  background-color: #407bff;
+  height: 2px;
+  margin-bottom: 30px;
+  border: none;
 }
 
 .obrazek img {
-    padding: 60px 75px 22px 75px;
-   }
+  padding: 60px 75px 22px 75px;
+}
 
 .button {
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFFFFF;
-    padding: 10px 30px;
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 10px;
-    border: none;
-    font-family: 'Montserrat', sans-serif;
-    display: block;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  display: block;
 }
 
 .prvni {
-    background-color: #407BFF;
+  background-color: #407bff;
 }
 
 .druhy {
-    background-color: #8B8B8B;
+  background-color: #8b8b8b;
 }
 
 .polozka {
-    display: flex;
-    margin: 20px;
-    box-shadow: 0px 4px 6px #407BFF1F;
-    border-radius: 10px;
-    align-items: center;
+  display: flex;
+  margin: 20px;
+  box-shadow: 0px 4px 6px #407bff1f;
+  border-radius: 10px;
+  align-items: center;
 }
 
 .ikona {
-    padding: 20px;
-    height: 40px;
-
+  padding: 20px;
+  height: 40px;
 }
- .odstavec {
-     margin: 0 20px 30px 20px;
-     line-height: 21px;
- }
 
+.odstavec {
+  margin: 0 20px 30px 20px;
+  line-height: 21px;
+}
 
- @media only screen and (min-width: 640px){
+@media only screen and (min-width: 640px) {
+  .button {
+    display: inline-block;
+    margin: 30px 10px;
+  }
 
-    .button {
-        display: inline-block;
-        margin: 30px 10px;
-    }
-    
-    .sluzby,
-    .delegati {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        
-    }
+  .sluzby,
+  .delegati {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
 
-    .polozka {
-        display: inline-block;
-        padding: 15px;
-        margin: 40px 10px 20px 10px;
-       
-    }
-   
-    .odstavec {
-        max-width: 550px;
-       margin: auto;  
-    }
+  .polozka {
+    display: inline-block;
+    padding: 15px;
+    margin: 40px 10px 20px 10px;
+  }
 
-    h3 {
-      text-align: center;  
-    }
+  .odstavec {
+    max-width: 550px;
+    margin: auto;
+  }
 
-    .obrazek img {
-        width: 400px;
-        
-    }
+  h3 {
+    text-align: center;
+  }
 
- }
+  .obrazek img {
+    width: 400px;
+  }
+}
 
+@media only screen and (min-width: 1100px) {
+  .body {
+    max-width: 1040px;
+    margin: auto;
+  }
+  
+  hr {
+    margin-left: 0;
+  }
 
- @media only screen and (min-width: 1100px){
-    .body {
-        max-width:1040px;
-        margin: auto;
-    }
-    hr {
-        margin-left: 0;
-    }
-   
-    h2 {
-        margin-top: 0;
-    }
-    .uvod {
-        display: flex;
-        align-items: center;
-        margin-top: 60px;
-    }
+  h2 {
+    margin-top: 0;
+  }
+  
+  .uvod {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+  }
 
-    .obrazek {
-        order: 1;
-    }
+  .obrazek {
+    order: 1;
+  }
 
-    .obrazek img {
-        max-width: 425px;
-        padding: 0px 30px 0px 60px;
-    
-    }
-    .main {
-        text-align: left;
-    }
-    .jedna {   
-        display: flex;
-        text-align: center;
-        align-items: center;
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
-    
-    .dva {
-        display: flex;
-        text-align: center;
-        align-items: center;
+  .obrazek img {
+    max-width: 425px;
+    padding: 0px 30px 0px 60px;
+  }
+  
+  .main {
+    text-align: left;
+  }
+  
+  .jedna {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 
-    }
-    .nadpis {
-        order: 1;
-        flex-basis: 430px;
-        text-align: left;
-       
-    }
-    .sluzby {
-        display: flex;
-        flex-basis: 550px;
-        padding-right: 60px;
-    }
-    .delegati {
-        display: flex;
-        order: 2;
-        flex-basis: 550px;
-        padding-left: 60px;
-    }
-    
-    .polozka {
-        margin: 0px;
-        flex-basis: 25%;
-    }
-    
+  .dva {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .nadpis {
+    order: 1;
+    flex-basis: 430px;
+    text-align: left;
+  }
+  
+  .sluzby {
+    display: flex;
+    flex-basis: 550px;
+    padding-right: 60px;
+  }
+  
+  .delegati {
+    display: flex;
+    order: 2;
+    flex-basis: 550px;
+    padding-left: 60px;
+  }
+
+  .polozka {
+    margin: 0px;
+    flex-basis: 25%;
+  }
 }
