@@ -55,6 +55,11 @@ hr {
   display: block;
 }
 
+.button a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .prvni {
   background-color: #407bff;
 }
